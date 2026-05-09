@@ -1,0 +1,15 @@
+{
+  "rules": [
+    {
+      "id": "frontend-image-upload-forever",
+      "priority": 100,
+      "text": "产品核心原则：前端图片上传组件必须永远支持 jpg, jpeg, png, webp，任何时候重写代码都不允许遗漏此项。"
+    },
+    {
+      "id": "frontend-logic-preservation",
+      "priority": 90,
+      "text": "开发原则：在修复后端 Bug 时，严禁随意修改或覆盖已经测试通过的前端交互逻辑。"
+    }
+  ]
+}
+
